@@ -1,195 +1,194 @@
 <!DOCTYPE html>
-  <html lang="es">
-  <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Retiro Effetá San Judas 2026</title>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;800&display=swap" rel="stylesheet">
-  <style>
-  :root {
-  --azul-oscuro: #0a2540;
---blanco: #ffffff;
-  --gris-claro: #f4f6f8;
-  --azul-claro: #1a4a7b;
-}
-* { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Montserrat', sans-serif; }
-html { scroll-behavior: smooth; }
-body { background-color: var(--gris-claro); color: #333; line-height: 1.6; }
-header {
-  background-color: var(--azul-oscuro);
-position: fixed;
-width: 100%;
-top: 0;
-z-index: 1000;
-box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-}
-nav {
-  display: flex;
-justify-content: space-between;
-align-items: center;
-max-width: 1200px;
-margin: 0 auto;
-padding: 15px 20px;
-}
-.logo-nav { color: var(--blanco); font-weight: 800; font-size: 1.2rem; text-decoration: none; }
-.nav-links { display: flex; gap: 20px; align-items: center; }
-.nav-links a { color: var(--blanco); text-decoration: none; font-weight: 600; font-size: 0.9rem; transition: 0.3s; }
-.nav-links a:hover { color: #d1e8ff; }
-  .btn-inscripcion-nav {
-  background-color: var(--blanco);
-color: var(--azul-oscuro) !important;
-padding: 8px 18px;
-border-radius: 20px;
-font-weight: 800 !important;
-border: 2px solid var(--blanco);
-}
-.btn-inscripcion-nav:hover { background-color: transparent; color: var(--blanco) !important; }
-.hero {
-  background: linear-gradient(rgba(10, 37, 64, 0.85), rgba(10, 37, 64, 0.85)), url('https://images.unsplash.com/photo-1511632765486-a01980e01a18?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80') center/cover;
-height: 100vh;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-text-align: center;
-color: var(--blanco);
-padding: 20px;
-margin-top: 60px;
-}
-.hero h1 { font-size: 3.5rem; margin-bottom: 10px; font-weight: 800; text-transform: uppercase; }
-.hero h2 { font-size: 1.5rem; font-weight: 300; margin-bottom: 20px; }
-.hero p { font-size: 1.2rem; font-style: italic; max-width: 600px; margin-bottom: 30px; }
-  .btn-principal {
-    background-color: var(--blanco);
-color: var(--azul-oscuro);
-padding: 15px 30px;
-text-decoration: none;
-font-size: 1.2rem;
-font-weight: 800;
-border-radius: 30px;
-transition: 0.3s;
-}
-.btn-principal:hover { background-color: #e0e0e0; transform: scale(1.05); }
-  section { max-width: 1000px; margin: 60px auto; padding: 20px; }
-  .titulo-seccion { text-align: center; color: var(--azul-oscuro); font-size: 2.5rem; margin-bottom: 30px; font-weight: 800; }
-.info-card { background: var(--blanco); padding: 40px; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.05); text-align: center; }
-.frase-divisoria { background-color: var(--azul-oscuro); color: var(--blanco); text-align: center; padding: 50px 20px; font-size: 1.8rem; font-weight: 600; font-style: italic; margin: 40px 0; }
-.grid-info { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
-.caja-info { background: var(--blanco); padding: 30px; border-radius: 10px; border-top: 5px solid var(--azul-oscuro); box-shadow: 0 5px 15px rgba(0,0,0,0.05); }
-.caja-info h3 { color: var(--azul-oscuro); margin-bottom: 15px; }
-.seccion-inscripcion { background-color: #e8eff5; padding: 60px 20px; border-radius: 15px; text-align: center; border: 2px dashed var(--azul-oscuro);}
-.botones-genero { display: flex; justify-content: center; gap: 20px; margin: 30px 0; flex-wrap: wrap;}
-.btn-hombres, .btn-mujeres { padding: 15px 40px; font-size: 1.2rem; font-weight: 800; text-decoration: none; border-radius: 8px; color: var(--blanco); transition: 0.3s; }
-  .btn-hombres { background-color: var(--azul-oscuro); }
-.btn-mujeres { background-color: var(--azul-claro); }
-.btn-hombres:hover, .btn-mujeres:hover { opacity: 0.8; transform: translateY(-3px); }
-.caja-pago { background: var(--blanco); padding: 30px; border-radius: 10px; margin-top: 30px; max-width: 600px; margin-left: auto; margin-right: auto; }
-.contacto-container { text-align: center; }
-.contacto-nombres { display: flex; justify-content: center; gap: 40px; flex-wrap: wrap; margin-top: 20px; font-size: 1.2rem; font-weight: 600;}
-footer { background-color: var(--azul-oscuro); color: var(--blanco); text-align: center; padding: 30px 20px; margin-top: 50px; }
-@media (max-width: 768px) {
-.hero h1 { font-size: 2.5rem; }
-.nav-links { display: none; }
-.botones-genero { flex-direction: column; }
-  }
-</style>
-  </head>
-  <body>
-  <header>
-  <nav>
-  <a href="#" class="logo-nav">EFFETÁ SAN JUDAS</a>
-  <div class="nav-links">
-  <a href="#inicio">Inicio</a>
-  <a href="#que-es">¿Qué es?</a>
-  <a href="#detalles">Logística</a>
-  <a href="#inscripcion" class="btn-inscripcion-nav">INSCRIPCIÓN</a>
-  <a href="#contacto">Contacto</a>
-  </div>
-  </nav>
-  </header>
-  <section id="inicio" class="hero">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/1x1.png" alt="Logo Effeta" style="height: 100px; margin-bottom: 20px;">
-  <h1>Retiro Effetá 2026</h1>
-  <h2>Parroquia San Judas Tadeo</h2>
-  <p>"Un retiro de jóvenes para jóvenes"</p>
-  <a href="#inscripcion" class="btn-principal">¡QUIERO INSCRIBIRME!</a>
-  </section>
-  <section id="que-es">
-  <h2 class="titulo-seccion">¿Qué es Effetá?</h2>
-<div class="info-card">
-<p>Effetá es una palabra aramea que significa <strong>"Ábrete"</strong>. Es un retiro católico de fin de semana, organizado y dirigido por jóvenes, diseñado para que puedas desconectarte del ruido del mundo y tener un encuentro íntimo y personal con el amor de Dios.</p>
-<br>
-  <p>Es una experiencia profunda de alegría, sanación y fraternidad, orientada a jóvenes de <strong>18 a 24 años</strong>. Todo lo que se vive dentro es confidencial, con el objetivo de que vivas tu propia experiencia sin expectativas previas. ¡Déjate sorprender!</p>
-</div>
-</section>
-<div class="frase-divisoria">
-"Somos jóvenes católicos enamorados de Jesús dispuestos a servirle al mundo."
-</div>
-<section id="detalles">
-<h2 class="titulo-seccion">Información del Retiro</h2>
-<div class="grid-info">
-<div class="caja-info">
-<h3>📅 Fechas y Edad</h3>
-<p><strong>Días:</strong> 23, 24 y 25 de octubre de 2026.</p>
-  <p><strong>Edades:</strong> 18 a 24 años.</p>
-  </div>
-  <div class="caja-info">
-  <h3>🚌 Salida (Viernes)</h3>
-  <p>Nos vamos en camiones. Salimos el <strong>viernes 23 a las 4:00 PM</strong>.</p>
-  <p><strong>Lugar:</strong> Parroquia San Judas Tadeo, Av. Jesús del Monte Mz 099, Hacienda de las Palmas, CDMX/Méx.</p>
-  </div>
-  <div class="caja-info">
-  <h3>🏡 Lugar del Retiro</h3>
-<p><strong>Casa de Retiro:</strong> Casa Lago sede del CEM.</p>
-  <p>San Benito 9, Lago de Guadalupe, Cuautitlán Izcalli, México 54760.</p>
-  </div>
-  <div class="caja-info">
-  <h3>🙏 Cierre (Domingo)</h3>
-  <p><strong>Misa de clausura:</strong> Domingo 25 a las <strong>4:30 PM</strong> en Casa Lago (lugar del retiro).</p>
-  <p><em>Invitamos a sus familias a la misa. No hay camiones de regreso, los familiares los recogen al finalizar.</em></p>
-  </div>
-  </div>
-  </section>
-  <div class="frase-divisoria" style="background-color: var(--gris-claro); color: var(--azul-oscuro); border: 2px solid var(--azul-oscuro);">
-  "Atrévete a abrir tu corazón y dejar que la gracia transforme tu vida."
-  </div>
-  <section id="inscripcion">
-  <div class="seccion-inscripcion">
-  <h2 class="titulo-seccion" style="margin-bottom: 10px;">Proceso de Inscripción</h2>
-<p>Sigue estos dos sencillos pasos para asegurar tu lugar en el retiro.</p>
-  <h3 style="margin-top: 30px; color: var(--azul-oscuro);">Paso 1: Llena el formulario</h3>
-  <div class="botones-genero">
-  <a href="https://forms.gle/MHos23d54TZ1JPH8A" target="_blank" class="btn-hombres">FORMULARIO HOMBRES</a>
-  <a href="https://forms.gle/M54wxsrWs6ktNaFR7" target="_blank" class="btn-mujeres">FORMULARIO MUJERES</a>
-  </div>
-  <div class="caja-pago">
-  <h3 style="color: var(--azul-oscuro);">Paso 2: Cuota de Recuperación</h3>
-<p style="font-size: 1.5rem; font-weight: 800; margin: 15px 0;">$3,500 MXN</p>
-<p>Una vez que llenes tu formulario, <strong>te enviaremos un correo de confirmación con un link de pago</strong> y nos pondremos en contacto contigo para guiarte. También tendrás la opción de acercarte con nosotros personalmente en la Parroquia de San Judas los domingos para realizar tu pago en efectivo.</p>
-  </div>
-  </div>
-  </section>
-  <section id="contacto">
-  <h2 class="titulo-seccion">¿Tienes dudas?</h2>
-  <div class="contacto-container">
-  <p>Si tienes alguna pregunta sobre el proceso de inscripción, la logística o el retiro, no dudes en mandarnos un WhatsApp o llamarnos:</p>
-  <div class="contacto-nombres">
-  <div>
-  <strong style="color: var(--azul-oscuro); display: block;">Santiago Cárdenas</strong>
-<a href="https://wa.me/525543373655" style="color: #333; text-decoration: none;">📞 55 4337 3655</a>
-  </div>
-  <div>
-  <strong style="color: var(--azul-oscuro); display: block;">Mateo Enríquez</strong>
-<a href="https://wa.me/525540167117" style="color: #333; text-decoration: none;">📞 55 4016 7117</a>
-  </div>
-  </div>
-  </div>
-  </section>
-  <footer>
-  <h2>EFFETÁ SAN JUDAS</h2>
-  <p style="margin-top: 10px; font-size: 0.9rem;">Ábrete a Dios</p>
-<p style="margin-top: 20px; font-size: 0.8rem; opacity: 0.7;">Retiro Effetá San Judas 2026. Todos los derechos reservados.</p>
-  </footer>
-  </body>
-  </html>
-  
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retiro Effetá San Judas 2026</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --azul-oscuro: #0a2540;
+            --blanco: #ffffff;
+            --gris-claro: #f4f6f8;
+            --azul-claro: #1a4a7b;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Montserrat', sans-serif; }
+        html { scroll-behavior: smooth; }
+        body { background-color: var(--gris-claro); color: #333; line-height: 1.6; }
+        header {
+            background-color: var(--azul-oscuro);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 15px 20px;
+        }
+        .logo-nav { color: var(--blanco); font-weight: 800; font-size: 1.2rem; text-decoration: none; }
+        .nav-links { display: flex; gap: 20px; align-items: center; }
+        .nav-links a { color: var(--blanco); text-decoration: none; font-weight: 600; font-size: 0.9rem; transition: 0.3s; }
+        .nav-links a:hover { color: #d1e8ff; }
+        .btn-inscripcion-nav {
+            background-color: var(--blanco);
+            color: var(--azul-oscuro) !important;
+            padding: 8px 18px;
+            border-radius: 20px;
+            font-weight: 800 !important;
+            border: 2px solid var(--blanco);
+        }
+        .btn-inscripcion-nav:hover { background-color: transparent; color: var(--blanco) !important; }
+        .hero {
+            background: linear-gradient(rgba(10, 37, 64, 0.85), rgba(10, 37, 64, 0.85)), url('https://images.unsplash.com/photo-1511632765486-a01980e01a18?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80') center/cover;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: var(--blanco);
+            padding: 20px;
+            margin-top: 60px;
+        }
+        .hero h1 { font-size: 3.5rem; margin-bottom: 10px; font-weight: 800; text-transform: uppercase; }
+        .hero h2 { font-size: 1.5rem; font-weight: 300; margin-bottom: 20px; }
+        .hero p { font-size: 1.2rem; font-style: italic; max-width: 600px; margin-bottom: 30px; }
+        .btn-principal {
+            background-color: var(--blanco);
+            color: var(--azul-oscuro);
+            padding: 15px 30px;
+            text-decoration: none;
+            font-size: 1.2rem;
+            font-weight: 800;
+            border-radius: 30px;
+            transition: 0.3s;
+        }
+        .btn-principal:hover { background-color: #e0e0e0; transform: scale(1.05); }
+        section { max-width: 1000px; margin: 60px auto; padding: 20px; }
+        .titulo-seccion { text-align: center; color: var(--azul-oscuro); font-size: 2.5rem; margin-bottom: 30px; font-weight: 800; }
+        .info-card { background: var(--blanco); padding: 40px; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.05); text-align: center; }
+        .frase-divisoria { background-color: var(--azul-oscuro); color: var(--blanco); text-align: center; padding: 50px 20px; font-size: 1.8rem; font-weight: 600; font-style: italic; margin: 40px 0; }
+        .grid-info { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
+        .caja-info { background: var(--blanco); padding: 30px; border-radius: 10px; border-top: 5px solid var(--azul-oscuro); box-shadow: 0 5px 15px rgba(0,0,0,0.05); }
+        .caja-info h3 { color: var(--azul-oscuro); margin-bottom: 15px; }
+        .seccion-inscripcion { background-color: #e8eff5; padding: 60px 20px; border-radius: 15px; text-align: center; border: 2px dashed var(--azul-oscuro);}
+        .botones-genero { display: flex; justify-content: center; gap: 20px; margin: 30px 0; flex-wrap: wrap;}
+        .btn-hombres, .btn-mujeres { padding: 15px 40px; font-size: 1.2rem; font-weight: 800; text-decoration: none; border-radius: 8px; color: var(--blanco); transition: 0.3s; }
+        .btn-hombres { background-color: var(--azul-oscuro); }
+        .btn-mujeres { background-color: var(--azul-claro); }
+        .btn-hombres:hover, .btn-mujeres:hover { opacity: 0.8; transform: translateY(-3px); }
+        .caja-pago { background: var(--blanco); padding: 30px; border-radius: 10px; margin-top: 30px; max-width: 600px; margin-left: auto; margin-right: auto; }
+        .contacto-container { text-align: center; }
+        .contacto-nombres { display: flex; justify-content: center; gap: 40px; flex-wrap: wrap; margin-top: 20px; font-size: 1.2rem; font-weight: 600;}
+        footer { background-color: var(--azul-oscuro); color: var(--blanco); text-align: center; padding: 30px 20px; margin-top: 50px; }
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2.5rem; }
+            .nav-links { display: none; }
+            .botones-genero { flex-direction: column; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#" class="logo-nav">EFFETÁ SAN JUDAS</a>
+            <div class="nav-links">
+                <a href="#inicio">Inicio</a>
+                <a href="#que-es">¿Qué es?</a>
+                <a href="#detalles">Logística</a>
+                <a href="#inscripcion" class="btn-inscripcion-nav">INSCRIPCIÓN</a>
+                <a href="#contacto">Contacto</a>
+            </div>
+        </nav>
+    </header>
+    <section id="inicio" class="hero">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/1x1.png" alt="Logo Effeta" style="height: 100px; margin-bottom: 20px;">
+        <h1>Retiro Effetá 2026</h1>
+        <h2>Parroquia San Judas Tadeo</h2>
+        <p>"Un retiro de jóvenes para jóvenes"</p>
+        <a href="#inscripcion" class="btn-principal">¡QUIERO INSCRIBIRME!</a>
+    </section>
+    <section id="que-es">
+        <h2 class="titulo-seccion">¿Qué es Effetá?</h2>
+        <div class="info-card">
+            <p>Effetá es una palabra aramea que significa <strong>"Ábrete"</strong>. Es un retiro católico de fin de semana, organizado y dirigido por jóvenes, diseñado para que puedas desconectarte del ruido del mundo y tener un encuentro íntimo y personal con el amor de Dios.</p>
+            <br>
+            <p>Es una experiencia profunda de alegría, sanación y fraternidad, orientada a jóvenes de <strong>18 a 24 años</strong>. Todo lo que se vive dentro es confidencial, con el objetivo de que vivas tu propia experiencia sin expectativas previas. ¡Déjate sorprender!</p>
+        </div>
+    </section>
+    <div class="frase-divisoria">
+        "Somos jóvenes católicos enamorados de Jesús dispuestos a servirle al mundo."
+    </div>
+    <section id="detalles">
+        <h2 class="titulo-seccion">Información del Retiro</h2>
+        <div class="grid-info">
+            <div class="caja-info">
+                <h3>📅 Fechas y Edad</h3>
+                <p><strong>Días:</strong> 23, 24 y 25 de octubre de 2026.</p>
+                <p><strong>Edades:</strong> 18 a 24 años.</p>
+            </div>
+            <div class="caja-info">
+                <h3>🚌 Salida (Viernes)</h3>
+                <p>Nos vamos en camiones. Salimos el <strong>viernes 23 a las 4:00 PM</strong>.</p>
+                <p><strong>Lugar:</strong> Parroquia San Judas Tadeo, Av. Jesús del Monte Mz 099, Hacienda de las Palmas, CDMX/Méx.</p>
+            </div>
+            <div class="caja-info">
+                <h3>🏡 Lugar del Retiro</h3>
+                <p><strong>Casa de Retiro:</strong> Casa Lago sede del CEM.</p>
+                <p>San Benito 9, Lago de Guadalupe, Cuautitlán Izcalli, México 54760.</p>
+            </div>
+            <div class="caja-info">
+                <h3>🙏 Cierre (Domingo)</h3>
+                <p><strong>Misa de clausura:</strong> Domingo 25 a las <strong>4:30 PM</strong> en Casa Lago (lugar del retiro).</p>
+                <p><em>Invitamos a sus familias a la misa. No hay camiones de regreso, los familiares los recogen al finalizar.</em></p>
+            </div>
+        </div>
+    </section>
+    <div class="frase-divisoria" style="background-color: var(--gris-claro); color: var(--azul-oscuro); border: 2px solid var(--azul-oscuro);">
+        "Atrévete a abrir tu corazón y dejar que la gracia transforme tu vida."
+    </div>
+    <section id="inscripcion">
+        <div class="seccion-inscripcion">
+            <h2 class="titulo-seccion" style="margin-bottom: 10px;">Proceso de Inscripción</h2>
+            <p>Sigue estos dos sencillos pasos para asegurar tu lugar en el retiro.</p>
+            <h3 style="margin-top: 30px; color: var(--azul-oscuro);">Paso 1: Llena el formulario</h3>
+            <div class="botones-genero">
+                <a href="https://forms.gle/Fxx8Wc59WvJV792h8" target="_blank" class="btn-hombres">FORMULARIO HOMBRES</a>
+                <a href="https://forms.gle/6PhQL9Lg5cW1ChxM9" target="_blank" class="btn-mujeres">FORMULARIO MUJERES</a>
+            </div>
+            <div class="caja-pago">
+                <h3 style="color: var(--azul-oscuro);">Paso 2: Cuota de Recuperación</h3>
+                <p style="font-size: 1.5rem; font-weight: 800; margin: 15px 0;">$3,500 MXN</p>
+                <p>Una vez que llenes tu formulario, <strong>te enviaremos un correo de confirmación con un link de pago</strong> y nos pondremos en contacto contigo para guiarte. También tendrás la opción de acercarte con nosotros personalmente en la Parroquia de San Judas los domingos para realizar tu pago en efectivo.</p>
+            </div>
+        </div>
+    </section>
+    <section id="contacto">
+        <h2 class="titulo-seccion">¿Tienes dudas?</h2>
+        <div class="contacto-container">
+            <p>Si tienes alguna pregunta sobre el proceso de inscripción, la logística o el retiro, no dudes en mandarnos un WhatsApp o llamarnos:</p>
+            <div class="contacto-nombres">
+                <div>
+                    <strong style="color: var(--azul-oscuro); display: block;">Santiago Cárdenas</strong>
+                    <a href="https://wa.me/525543373655" style="color: #333; text-decoration: none;">📞 55 4337 3655</a>
+                </div>
+                <div>
+                    <strong style="color: var(--azul-oscuro); display: block;">Mateo Enríquez</strong>
+                    <a href="https://wa.me/525540167117" style="color: #333; text-decoration: none;">📞 55 4016 7117</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <h2>EFFETÁ SAN JUDAS</h2>
+        <p style="margin-top: 10px; font-size: 0.9rem;">Ábrete a Dios</p>
+        <p style="margin-top: 20px; font-size: 0.8rem; opacity: 0.7;">Retiro Effetá San Judas 2026. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
